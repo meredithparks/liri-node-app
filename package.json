@@ -1,8 +1,8 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "keys.js",
+  "description": "this application is for grabbing data from APIs",
+  "main": "liri.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,10 +11,16 @@
     "url": "git+https://github.com/meredithparks/liri-node-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Meredith Parks",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/meredithparks/liri-node-app/issues"
   },
-  "homepage": "https://github.com/meredithparks/liri-node-app#readme"
+  "homepage": "https://github.com/meredithparks/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7"
+  }
 }
